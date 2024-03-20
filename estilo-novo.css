@@ -8,12 +8,12 @@
 
  body,
  html {
-     background-color: aliceblue;
+     background-color: rgb(94, 101, 207);
 
  }
 
  header {
-     background-color: rgb(148, 148, 148);
+     background-color: rgb(134, 135, 192);
 
  }
 
@@ -24,8 +24,8 @@
 
  /*tem que usar o i#burger para aparecer o valor*/
  i#burger {
-     background-color: rgb(48, 48, 48);
-     color: white;
+     background-color: rgb(88, 20, 35);
+     color: rgb(44, 3, 27);
      display: none;
      text-align: center;
      padding: 7px;
@@ -34,7 +34,7 @@
 
  i#burger:hover {
      background-color: white;
-     color: black;
+     color: rgb(44, 3, 13);
  }
 
  /*trocar block para none*/
