@@ -6,10 +6,11 @@
      padding: 0px;
  }
 
+head
+
  body,
  html {
      background-color: rgb(94, 101, 207);
-
  }
 
  header {
@@ -19,7 +20,7 @@
 
  header>h1 {
      padding: 7px;
-     text-align: center;
+     
  }
 
  /*tem que usar o i#burger para aparecer o valor*/
@@ -40,6 +41,7 @@
  /*trocar block para none*/
  menu {
      display: none;
+     text-align: auto;
  }
 
  menu>ul {
@@ -51,13 +53,13 @@
      padding: 7px;
      text-decoration: none;
      text-align: center;
-     background-color: rgba(223, 223, 223, 0.719);
+     background-color: rgba(42, 20, 165, 0.719);
      color: rgb(252, 252, 252);
-     border-color: 2px rgb(44, 44, 44);
+     border-color: 2px rgb(26, 3, 61);
  }
 
  menu>ul>li>a:hover {
-     background-color: gray;
+     background-color: rgb(17, 2, 41);
  }
 
  main {
@@ -67,16 +69,33 @@
      margin-top: 7px;
      padding: 7px;
      border-radius: 7px;
-
  }
+
+img{width: auto;
+    margin:auto;
+    position: middle;
+    top: 0px;
+    border-top-left-radius: 10px;
+    float: left;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    }
 
  article>h2 {
      padding-bottom: 17px;
-
+text-align: center;
+margin-bottom: auto;
  }
 
  article>p {
+    
+    text-indent: justify;
      text-align: justify;
-     margin-bottom: 7px;
-     text-indent: 17px;
- }
+     margin-bottom: auto;
+     text-indent: 17px;  
+     right: 10%;
+     left: auto 
+     
+    }
